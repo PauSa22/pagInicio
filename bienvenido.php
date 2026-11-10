@@ -13,8 +13,10 @@ $fecha = "9 Noviembre del 2026";
 <head>
     <meta charset="UTF-8">
 
+    <!-- Título de la página -->
     <title>Bienvenida</title>
 
+    <!-- Conectar la hoja de estilos CSS -->
     <link rel="stylesheet" href="estilo.css">
 </head>
 
@@ -23,9 +25,10 @@ $fecha = "9 Noviembre del 2026";
     <!-- Contenedor principal del codigo -->
     <div class="contenedor">
 
+        <!-- Mensaje de bienvenida -->
         <h1>¡Bienvenido!</h1>
 
-        <!-- para el logo de la escuela -->
+        <!-- Imagen del logo de la escuela -->
         <img src="images/logo.jpg" alt="Logo de la escuela" class="logo">
 
         <!-- Muestra el nombre del alumno -->

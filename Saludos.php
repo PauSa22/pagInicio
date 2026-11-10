@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 
 <?php
 // Arreglo que guarda los saludos de cada idioma
@@ -29,55 +27,47 @@ if (isset($_POST["idioma"])) {
 }
 ?>
 
->>>>>>> Stashed changes
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-<<<<<<< Updated upstream
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salu2</title>
-=======
 
+    <!-- Título de la página -->
     <title>Saludos del mundo</title>
 
+    <!-- Conectar la hoja de estilos -->
     <link rel="stylesheet" href="estilo.css">
->>>>>>> Stashed changes
 </head>
+
 <body>
-<<<<<<< Updated upstream
-    
-=======
 
     <!-- Contenedor principal de la página -->
     <div class="contenedor">
 
+        <!-- Título principal -->
         <h1>Saludos de partes del mundo!</h1>
 
         <p>Selecciona un idioma para conocer su saludo.</p>
 
+        <!-- Formulario para seleccionar el idioma -->
         <form method="POST">
 
             <select name="idioma" required>
 
                 <!-- Opciones de idiomas -->
                 <option value="">Selecciona un idioma</option>
-
                 <option value="japones">Japonés</option>
-
                 <option value="espanol">Español</option>
-
                 <option value="espana">Español de España</option>
-
                 <option value="ingles">Inglés</option>
-
                 <option value="coreano">Coreano</option>
 
             </select>
 
             <br><br>
 
-            <!-- Boton que muestra el idioma que quieres -->
+            <!-- Botón para mostrar el saludo -->
             <button type="submit">Mostrar saludo</button>
 
         </form>
@@ -98,5 +88,6 @@ if (isset($_POST["idioma"])) {
         <a href="inicio.php" class="boton">Regresar al inicio</a>
 
     </div>
+
 </body>
 </html>
